@@ -2,9 +2,9 @@
 = form_for @password do |f|
   %p
     %div.title
-      %span.title Password Pusher
+      %span.title AppliedI Password Share Tool
       %br
-      %span.tagline Go Ahead.  Email Another Password.
+      %span.tagline For securely sharing passwords between customers and our team.
   %p.payload
     = f.text_field(:payload, { :class => "password", :value => PAYLOAD_INITIAL_TEXT, :onfocus => "prepareTextField(this)", :onblur => "revertTextField(this)", :autocomplete => "off" })
   %p
