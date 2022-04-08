@@ -26,7 +26,7 @@ RETRIEVAL_STEP_ENABLED = ENV.fetch('RETRIEVAL_STEP_ENABLED', 'true').downcase ==
 #
 # When true, secret URLs will be generated as /p/xxxxxxxx/r which will show a page
 # requiring a click to view the page /p/xxxxxxxx
-RETRIEVAL_STEP_DEFAULT = ENV.fetch('RETRIEVAL_STEP_DEFAULT', 'false').downcase == 'true'
+RETRIEVAL_STEP_DEFAULT = ENV.fetch('RETRIEVAL_STEP_DEFAULT', 'true').downcase == 'true'
 
 # DELETABLE_PASSWORDS_ENABLED
 # default: true
