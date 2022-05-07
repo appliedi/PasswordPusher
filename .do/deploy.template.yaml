@@ -34,7 +34,7 @@ spec:
     - key: EXPIRE_AFTER_DAYS_DEFAULT
       scope: RUN_TIME
       type: GENERAL
-      value: '7'
+      value: '2'
     # Expire after days minimum value
     - key: EXPIRE_AFTER_DAYS_MIN
       scope: RUN_TIME
@@ -49,7 +49,7 @@ spec:
     - key: EXPIRE_AFTER_VIEWS_DEFAULT
       scope: RUN_TIME
       type: GENERAL
-      value: '5'
+      value: '12'
     # Expire after views minimum value
     - key: EXPIRE_AFTER_VIEWS_MIN
       scope: RUN_TIME
