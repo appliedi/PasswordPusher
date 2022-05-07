@@ -19,7 +19,8 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        ruby-version: ['2.7', '3.0']
+        #ruby-version: ['2.7', '3.0']
+        ruby-version: ['3.0']
 
     env:
       BUNDLE_WITHOUT: 'development'
